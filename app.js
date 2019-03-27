@@ -3,11 +3,12 @@ const yargs = require('yargs');
 const args = yargs.argv;
 const findMultiple = require('./helper/findMultiple');
 const checkInput = require('./helper/checkInput');
+
 const availableNodes = [100, 50, 20, 10];
 
-let userInput = args._[0];
-userInput = !userInput ? null : userInput;
 try {
+    let userInput = args._[0];
+    userInput = !userInput ? null : userInput;
     const resultArr = [];
     checkInput(userInput);
     availableNodes.forEach((node, index) => {
