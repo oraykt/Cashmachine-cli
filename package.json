@@ -1,0 +1,23 @@
+{
+  "name": "developx-cli",
+  "version": "1.0.0",
+  "description": "``` npm install ```\r ``` node cli-app.js ${amount} ```\r forExample\r ``` node cli-app.js 90 ```",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oraykt/DevelopX-cli.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oraykt/DevelopX-cli/issues"
+  },
+  "homepage": "https://github.com/oraykt/DevelopX-cli#readme",
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "yargs": "^13.2.2"
+  }
+}
