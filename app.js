@@ -1,7 +1,6 @@
 const _ = require('lodash');
 const yargs = require('yargs');
 const args = yargs.argv;
-const findMultiple = require('./helper/findMultiple');
 const findResult = require('./helper/findResult');
 const availableNodes = [100, 50, 20, 10];
 
