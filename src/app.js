@@ -1,7 +1,7 @@
 /* eslint-disable no-throw-literal */
 const yargs = require('yargs')
 const args = yargs.argv
-const checkUserInput = require('./services/checkUserInput')
+const checkUserInput = require('./utils/checkUserInput')
 const findResultArray = require('./services/findResultArray')
 const calculateAmount = require('./services/calculateAmount')
 const availableNodes = [100, 50, 20, 10]
