@@ -1,11 +1,9 @@
-module.exports = (availableNotes, userInput) => {
+module.exports = (availableNotes, userInput, resultArray) => {
   availableNotes.forEach((value, index) => {
-    if (availableNotes.length - 1 === index) {
-      if (userInput % value === 0) {
-        // TODO
-      }
-    } else {
-      userInput -= value * index
+    const division = Math.floor(userInput / value)
+    userInput -= value * division
+    for (let i = 0; i < division; i++) {
+      resultArray.push(value)
     }
   })
 }
