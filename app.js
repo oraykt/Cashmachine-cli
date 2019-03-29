@@ -2,8 +2,8 @@
 const yargs = require('yargs')
 const args = yargs.argv
 const checkUserInput = require('./src/utils/checkUserInput')
-const findResultArray = require('./src/modules/findResultArray')
-const calculateAmount = require('./src/modules/calculateAmount')
+const findResultArray = require('./src/services/findResultArray')
+const calculateAmount = require('./src/services/calculateAmount')
 const availableNodes = [100, 50, 20, 10]
 try {
   let userInput = checkUserInput(args._[0])
