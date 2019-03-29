@@ -1,6 +1,9 @@
 # DevelopX
+## Installation
 
-``` npm install ``` <br/>
-``` node cli-app.js ${amount} ```<br/>
-forExample <br/>
-``` node cli-app.js 90 ```
+```bash
+git clone --single-branch --branch develop git@github.com:oraykt/DevelopX-cli.git && cd DevelopX-cli
+```
+```bash
+node src/app.js X
+```
