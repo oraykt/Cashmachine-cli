@@ -8,7 +8,8 @@ const unExpectedError = require('../utils/unExpectedError')
 
 // import cashMachineService from somewhere
 const cashMachineService = {
-  withdraw: 'https://oraykt-developx.herokuapp.com/withdraw'
+  withdrawOnHeroku: 'https://oraykt-developx.herokuapp.com/withdraw',
+  withdrawOnLocal: 'http://localhost:3000/withdraw'
 }
 
 const setUrl = (url) => {
@@ -30,7 +31,7 @@ const setContentType = (contentType) => {
 module.exports = (userInput) => {
   const spinner = ora().start()
   axios.post(
-    setUrl(cashMachineService.withdraw),
+    setUrl(cashMachineService.withdrawOnLocal),
     setRequestBody(userInput),
     setHeader('application/x-www-form-urlencoded')
   )
