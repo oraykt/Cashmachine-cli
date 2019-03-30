@@ -7,7 +7,7 @@ const errorOutput = require('../utils/error')
 
 // import cashMachineService from somewhere
 const cashMachineService = {
-  withdraw: 'http://localhost:3000/withdraw'
+  withdraw: 'https://oraykt-developx.herokuapp.com/withdraw'
 }
 
 const setRequestBody = (userInput) => {
