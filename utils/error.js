@@ -1,3 +1,6 @@
 module.exports = (exception) => {
-  console.log(exception)
+  console.error(`
+  Error: ${exception.error}
+  Message: ${exception.error_msg}
+  `)
 }
