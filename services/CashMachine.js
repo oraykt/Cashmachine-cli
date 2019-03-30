@@ -1,5 +1,9 @@
 const axios = require('axios')
-const qs = require('querystring');
+const qs = require('querystring')
+const ora = require('ora')
+
+const resultOutput = require('../utils/result')
+const errorOutput = require('../utils/error')
 
 // import cashMachineService from somewhere
 const cashMachineService = {
@@ -12,6 +16,7 @@ const setRequestBody = (userInput) => {
 
 
 module.exports = (userInput) => {
+  const spinner = ora().start()
   axios.post(
     cashMachineService.withdraw,
     setRequestBody(userInput),
@@ -22,12 +27,12 @@ module.exports = (userInput) => {
     }
   )
     .then((response) => {
-      // console.log(response)
-      console.log(response.data)
+      spinner.stop()
+      resultOutput(response.data.result)
     })
     .catch((error) => {
-      // console.log(error)
-      console.log(error.response.data)
+      spinner.stop()
+      errorOutput(error.response.data.exception)
     })
 
 }
