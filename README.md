@@ -5,5 +5,5 @@
 git clone git@github.com:oraykt/DevelopX-cli.git && cd DevelopX-cli && npm install
 ```
 ```bash
-node src/app.js X
+node app.js X
 ```
