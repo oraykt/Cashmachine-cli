@@ -1,4 +1,7 @@
-# DevelopX
+# DevelopX-Expess API Usage
+
+The main project is [DevelopX-Express](https://github.com/oraykt/DevelopX-Express) <br/>
+The problem is [README.md](https://github.com/oraykt/DevelopX-Express/blob/master/README.md) <br/>
 
 ## How It works
 
