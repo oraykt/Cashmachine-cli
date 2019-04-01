@@ -5,7 +5,7 @@ The problem is [README.md](https://github.com/oraykt/DevelopX-Express/blob/maste
 
 ## How It works
 
-![](https://media.giphy.com/media/1Agk6loLo95og2M6KE/giphy.gif)
+![](https://media.giphy.com/media/2sges6l2MXV0dU0FHR/giphy.gif)
 
 
 ## Installation
