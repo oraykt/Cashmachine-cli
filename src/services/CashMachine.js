@@ -6,7 +6,6 @@ const resultOutput = require('../utils/result')
 const errorOutput = require('../utils/error')
 const unExpectedError = require('../utils/unExpectedError')
 
-// import cashMachineService from somewhere
 const apiConfig = require('../config/api')
 
 const setUrl = (url) => {
@@ -44,5 +43,4 @@ module.exports = (userInput) => {
         unExpectedError(error.response)
       }
     })
-
 }
