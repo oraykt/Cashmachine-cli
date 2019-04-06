@@ -1,5 +1,7 @@
 # DevelopX-Expess API Usage
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/84e3ce2b28134ccdadd9276ae94d3157)](https://app.codacy.com/app/oraykt/DevelopX-cli?utm_source=github.com&utm_medium=referral&utm_content=oraykt/DevelopX-cli&utm_campaign=Badge_Grade_Settings)
+
 The main project is [DevelopX-Express](https://github.com/oraykt/DevelopX-Express) <br/>
 The problem is [README.md](https://github.com/oraykt/DevelopX-Express/blob/master/README.md) <br/>
 
