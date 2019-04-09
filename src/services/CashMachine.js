@@ -1,12 +1,10 @@
 const axios = require('axios')
 const qs = require('querystring')
 const ora = require('ora')
-
-const resultOutput = require('../utils/result')
-const errorOutput = require('../utils/error')
-const unExpectedError = require('../utils/unExpectedError')
-
 const apiConfig = require('../config/api')
+const resultOutput = require('../outputs/result')
+const errorOutput = require('../outputs/error')
+const unExpectedError = require('../outputs/unExpectedError')
 
 const setUrl = (url) => {
   return url

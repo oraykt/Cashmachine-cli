@@ -1,5 +1,6 @@
 module.exports = (response) => {
   console.error(`
+        Unexpected!
         status: ${response.status}
         statusText: ${response.statusText}
         url: ${response.config.url}

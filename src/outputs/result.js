@@ -2,7 +2,7 @@ module.exports = (resultArray) => {
   if (resultArray.length === 0) {
     console.log('Result: ', resultArray)
   } else {
-    console.log("Result: ")
+    console.log('Result: ')
     let amount = 1
     resultArray.forEach((val, index) => {
       if (resultArray[index + 1]) {
@@ -15,6 +15,6 @@ module.exports = (resultArray) => {
       } else {
         console.log(val + ' x ' + amount)
       }
-    });
+    })
   }
 }
