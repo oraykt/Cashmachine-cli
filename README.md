@@ -1,4 +1,4 @@
-# DevelopX-Expess API Usage
+# Cashmachine API Usage
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/84e3ce2b28134ccdadd9276ae94d3157)](https://app.codacy.com/app/oraykt/DevelopX-cli?utm_source=github.com&utm_medium=referral&utm_content=oraykt/DevelopX-cli&utm_campaign=Badge_Grade_Settings)
 
